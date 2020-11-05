@@ -14,6 +14,9 @@ import 'vue-form-wizard/dist/vue-form-wizard.min.css'
 import App from "./components/App";
 import { funcionesGlobales } from "./funciones.js";
 import swal from 'sweetalert2';
+
+import 'vue-select/dist/vue-select.css';
+
 window.Swal = swal;
 
 Vue.prototype.$funcionesGlobales = funcionesGlobales;
